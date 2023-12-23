@@ -35,31 +35,13 @@ header {
     letter-spacing: 0.2rem;
 }
 
-.Nav_List:hover,
-.Nav_List:focus {
-  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
-  transform: translateY(-0.25em);
-}
-/*
+
+/*EFECTO-HOVER-LIST*/
 .Nav_List :hover {
-    width: 10rem;
-    height: 0.5px;
-    background-color: #3333338f;
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    text-align: center;
     color: #ffffff;
-    border-radius: 2px;
-    line-height: 100px;
-    box-shadow: 0 4px 6px rgba(156, 69, 255, 0.308);
-    transition: background-color 50s ease, transform 50s ease, box-shadow 0.8s ease;
-    }
-   .Nav_List:hover {
-    background-color: #00000000;
-    transform: scale(1.0); 
+    transition: background-color 5s ease, transform 5s ease, box-shadow 0.8s ease;
 }
-*/
+
 
 /*Logo tecnimux*/  
 .Logo_Tx {
@@ -68,6 +50,7 @@ header {
     background-color:transparent;
 cursor: url("/CURSOR/cursor02.png"),auto ;
 }
+
 .Logo_Tx:hover {
     width: 100px;
     height: 81px;
@@ -93,7 +76,7 @@ cursor: url("/CURSOR/cursor02.png"),auto ;
 }
 .Nav_Bar li a {
     text-decoration: none;
-    color: #00ff88;
+    color: #84f584;
 }
 
 
