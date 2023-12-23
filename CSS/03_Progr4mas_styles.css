@@ -26,9 +26,10 @@
         }
         
     body {
-    background-image:url(/FLIPPERZERO.jpeg);
-    background-size: contain;
-    background-repeat: repeat;
+    background-image:url(/BACKGROUND-PAGES/BRUTAL.png);
+    background-repeat: cover;
+    padding: 10px;
+
     }
 
     @font-face {
@@ -37,12 +38,13 @@
        }
        header {
         position: fixed;
-        padding:40px;
+        padding:60px;
        background-color:#1e1e1e;
        color: fff;
        margin: 0;
        top: 0;
        width: 100%;
+       z-index: 2;
     }
 
 
@@ -128,7 +130,7 @@ color:goldenrod;
         
 
         .L-A_PREMIERE img {
-            z-index: 2;
+            z-index: 1;
             width:6%;
             height:auto;
             left: 40px;
@@ -144,6 +146,7 @@ color:goldenrod;
         
 
         .L-A_PHOTOSHOP img {
+            z-index: 1;
             width:6%;
             height:auto;
             left: 40px;
@@ -158,6 +161,7 @@ color:goldenrod;
         }
 
         .L-A_ILLUSTRATOR img {
+            z-index: 1;
             width:6%;
             height:auto;
             left: 40px;
@@ -170,6 +174,7 @@ color:goldenrod;
             }
 
             .L-A_AFTER_EFFECTS img {
+                z-index: 1;
                 width:6%;
                 height:auto;
                 left: 40px;
@@ -182,6 +187,7 @@ color:goldenrod;
                 }
 
                 .L-VM_WARE img {
+                    z-index: 1;
                     width:6%;
                     height:auto;
                     left: 40px;
@@ -194,6 +200,7 @@ color:goldenrod;
                     }
 
                     .L-S_OFFICE img {
+                        z-index: 1;
                         width:6%;
                         height:auto;
                         left: 40px;
@@ -206,6 +213,7 @@ color:goldenrod;
                         }
 
                         .L-KMS_PICO img {
+                            z-index: 1;
                             width:6%;
                             height:auto;
                             left: 40px;
@@ -219,6 +227,7 @@ color:goldenrod;
 
 
                     .LOGO_WRAR img {
+                        z-index: 1;
                         width:6%;
                         height:auto;
                         left: 40px;
