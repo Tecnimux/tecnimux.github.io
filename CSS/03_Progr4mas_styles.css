@@ -12,6 +12,9 @@
         max-width: 5rem;
         cursor: pointer;
         }
+
+
+        
         .Logo_Tx:hover {
             width: 100px;
             height: 81px;
@@ -27,9 +30,10 @@
         
     body {
     background-image:url(/BACKGROUND-PAGES/BRUTAL.png);
-    background-repeat:none ;
+    background-repeat:none;
     background-size: cover;
-    padding: 10px;
+    padding-top: 50px;
+  
 
     }
 
@@ -281,9 +285,25 @@ color:goldenrod;
 
 
 
-                    @media screen and (max-width: 1000px){
+                    @media screen and (max-width: 800px){
                         .pw {
-                        flex: 0%;
+                           
+                            border: 0;
+                            font-size: 4rem;
+                            
+                            
                     }
-                        
+                        label {
+                            flex: 10%;  
+                        }
+                        input {
+                            flex: 10%;
+                        }
+                    }
+
+
+
+
+                    footer {
+                        margin: 0;
                     }

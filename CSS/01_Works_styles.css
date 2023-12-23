@@ -57,13 +57,19 @@ img {
 }
 
 
-@media screen  and (max-width: 600px) {
+    
+@media screen  and (max-width: 1000px) {
     .column {
-        flex:100%;
+        flex:30%;
     }
 
 }
-    
 
 
   
+@media screen  and (max-width: 800px) {
+    .column {
+        flex:50%;
+    }
+
+}
