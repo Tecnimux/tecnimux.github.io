@@ -5,8 +5,8 @@
     }
     /*Logo tecnimux*/  
     .Logo_Tx {
-        z-index:2 ;
-        position: absolute;
+        z-index:3 ;
+        position: fixed;
         right: 20px;
         top: 20px;
         max-width: 5rem;
@@ -27,7 +27,8 @@
         
     body {
     background-image:url(/BACKGROUND-PAGES/BRUTAL.png);
-    background-repeat: cover;
+    background-repeat:none ;
+    background-size: cover;
     padding: 10px;
 
     }
@@ -39,7 +40,7 @@
        header {
         position: fixed;
         padding:60px;
-       background-color:#1e1e1e;
+       background-color:rgba(30, 30, 30, 0.65);
        color: fff;
        margin: 0;
        top: 0;
@@ -118,7 +119,7 @@ color:goldenrod;
 
 .btn:hover::after {
     transform: translate(-50%, -50%) scale(1);
-    opacity: 1;
+    opacity: 1;  
 }
 
 
@@ -243,30 +244,46 @@ color:goldenrod;
 
                     label {
                         position: fixed;
-                        align-items: center;
+
                         color: greenyellow;
                         font-size: 2rem;
-                        left: 0;
-                        top: 50;
+                        left: 30%;
+                        
+
+                        
+                            font-family: batman;
+                            src: url(/FUENTES/batmfa_.ttf)
+                    
                     }
                     input  {
                         position: relative;
-                        padding-left: 4px;
-                        background-color:#ffffff;
+                        
+
                         max-width: 90px;
-                        outline:none;
+                       
                         font-size: 1rem;
                         border: 0;
-                        text-align:start;
+                        margin: 0;
                         top: .8rem;
                         left: 10.5rem;
-                    
-                        
-                        
-                    }
+                        background-color: #0000;
+                        color: #ffffff;
+                }
                    
                     .pw {
                         position: fixed;
-                        align-items: center;
+                
+                        margin: 0;
+                        top: 10;
+                        left: 40%;
+                    }
 
+
+
+
+                    @media screen and (max-width: 1000px){
+                        .pw {
+                        flex: 0%;
+                    }
+                        
                     }
