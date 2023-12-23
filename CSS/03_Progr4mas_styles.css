@@ -38,7 +38,7 @@
        header {
         position: fixed;
         padding:40px;
-       background-color:#000000;
+       background-color:#1e1e1e;
        color: fff;
        margin: 0;
        top: 0;
@@ -66,8 +66,8 @@ color:goldenrod;
 
 .btn {
     padding: 1rem 3rem;
-    background:#2b2a2a ;
-    border:0.1rem solid #00ff0d;
+    background:#0000 ;
+    border:0.1rem solid #634092;
     cursor:pointer;
     position: absolute;
     margin-left: 12rem;
