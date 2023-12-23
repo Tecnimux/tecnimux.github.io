@@ -35,6 +35,12 @@ header {
     letter-spacing: 0.2rem;
 }
 
+.Nav_List:hover,
+.Nav_List:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+/*
 .Nav_List :hover {
     width: 10rem;
     height: 0.5px;
@@ -46,14 +52,14 @@ header {
     color: #ffffff;
     border-radius: 2px;
     line-height: 100px;
-    box-shadow: 0 4px 6px rgba(156, 69, 255, 0.308); /* Sombra inicial */
+    box-shadow: 0 4px 6px rgba(156, 69, 255, 0.308);
     transition: background-color 50s ease, transform 50s ease, box-shadow 0.8s ease;
     }
    .Nav_List:hover {
     background-color: #00000000;
     transform: scale(1.0); 
 }
-
+*/
 
 /*Logo tecnimux*/  
 .Logo_Tx {
@@ -98,14 +104,27 @@ cursor: url("/CURSOR/cursor02.png"),auto ;
 }
 
 @media  screen and (max-width:830px) {                       
-    .Open,
-    .Close {
+    .Open
+     {
     display: block;
     border: 0;
     font-size: 4rem;
     background-color: transparent;
     cursor: pointer;
+    
 }
+.Close {
+    display: flex;
+    background-color: transparent;
+    margin: 0;
+    border: 0;
+    position: fixed;
+    top: 40px;
+    right: 30px;
+    font-size:40px ;
+}
+
+
 
     .Open {
         color: #ffffff;

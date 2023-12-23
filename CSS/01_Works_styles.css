@@ -17,6 +17,7 @@ body {
     }
 /*Logo tecnimux*/  
 .Logo_Tx {
+    z-index: 1;
     position: absolute;
     right: 20px;
     top: 20px;
@@ -57,6 +58,19 @@ img {
 }
 
 
+
+.column img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .5s ease-in-out;
+	transition: .8s ease-in-out;
+    cursor:pointer;
+}
+.column:hover img {
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
+}
+
     
 @media screen  and (max-width: 1000px) {
     .column {
@@ -73,3 +87,6 @@ img {
     }
 
 }
+
+
+
