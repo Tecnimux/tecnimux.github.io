@@ -182,7 +182,7 @@ cursor: url("/CURSOR/cursor02.png"),auto ;
     position: absolute;
     width: 25px;
     right: 20px;
-    bottom: 120px;
+    bottom: 125px;
   }
 
     /* Efecto hover con animación */
@@ -214,7 +214,7 @@ cursor: url("/CURSOR/cursor02.png"),auto ;
     position: absolute;
     width: 25px;
     right: 20px;
-    bottom: 80px;
+    bottom: 95px;
   }
 
     
@@ -244,7 +244,7 @@ cursor: url("/CURSOR/cursor02.png"),auto ;
     position: absolute;
     width: 25px;
     right: 20px;
-    bottom: 40px;
+    bottom: 60px;
   }
 
     /* Efecto hover con animación */
@@ -273,7 +273,8 @@ cursor: url("/CURSOR/cursor02.png"),auto ;
     position: absolute;
     width: 25px;
     right: 20px;
-    bottom: 0px;
+    bottom: 30px;
+
       }
     
         /* Efecto hover con animación */
