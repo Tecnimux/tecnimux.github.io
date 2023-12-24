@@ -94,7 +94,7 @@ cursor: url("/CURSOR/cursor02.png"),auto ;
     font-size: 4rem;
     background-color: transparent;
     cursor: pointer;
-    
+    }
 }
 .Close {
     display: flex;
@@ -388,7 +388,7 @@ p3 {
     /*Video de fondo*/
 #BK {
     min-height: 10vh;
-    position: relative;
+    position: absolute;
 }
 video {
     position: absolute;
@@ -428,18 +428,18 @@ video {
 
 .colombia01 {
     position: relative;
-    bottom: 50px;
+    bottom: 10px;
 }
 .colombia02 {
     position: relative;
-    bottom: 50px;
+    bottom: 10px;
 }
     
 .T4 {
-    position: relative;
+    position: absolute;
     bottom: 50px;
 }
 .Creditos {
-    position: relative;
+    position: absolute;
     bottom: 50px;
 }
