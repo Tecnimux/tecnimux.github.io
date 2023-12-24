@@ -155,18 +155,7 @@ cursor: url("/CURSOR/cursor02.png"),auto ;
     .iniciar_s {
         position: relative;
         padding-top: 80px;
-
-    }
-    
-    footer {
-        position: fixed;
-        bottom: 0;
-        width:100%;
-        height: 1vh;
-
-    }
-}
-
+        }
 
 /*REDES SOCIALES*/
 .S1 img {
@@ -437,9 +426,20 @@ video {
     color: #688b07;   
 }
 
-
-
-/*
-footer {
+.colombia01 {
+    position: relative;
+    bottom: 50px;
 }
-*/
+.colombia02 {
+    position: relative;
+    bottom: 50px;
+}
+    
+.T4 {
+    position: relative;
+    bottom: 50px;
+}
+.Creditos {
+    position: relative;
+    bottom: 50px;
+}
