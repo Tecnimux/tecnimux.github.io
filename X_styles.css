@@ -165,7 +165,7 @@ cursor: url("/CURSOR/cursor02.png"),auto ;
 }
     /* Estilo inicial del elemento */
 .S1 {
-    background-color: #6034db;
+    background-color:rgba(0, 0, 0, 0);
     color: #ffffff;
     transition: transform 0.3s ease;
     position: absolute;
@@ -197,7 +197,7 @@ cursor: url("/CURSOR/cursor02.png"),auto ;
 }
  
 .S2 {
-    background-color: #6034db;
+    background-color:rgba(0, 0, 0, 0);
     color: #ffffff;
     transition: transform 0.3s ease;
     position: absolute;
@@ -227,7 +227,7 @@ cursor: url("/CURSOR/cursor02.png"),auto ;
     height: auto;
 }
 .S3 {
-    background-color: #6034db;
+    background-color:rgba(0, 0, 0, 0);
     color: #ffffff;
     transition: transform 0.3s ease;
     position: absolute;
@@ -256,12 +256,12 @@ cursor: url("/CURSOR/cursor02.png"),auto ;
 }
 
 .S4 {
-    background-color: #6034db;
+    background-color:rgba(0, 0, 0, 0);
     color: #ffffff;
     transition: transform 0.3s ease;
     position: absolute;
     width: 25px;
-    right: 20px;
+    right: 15px;
     bottom: 155px;
 
       }
@@ -294,12 +294,12 @@ cursor: url("/CURSOR/cursor02.png"),auto ;
         }
         
 .S5 {
-            background-color: #6034db;
+    background-color:rgba(0, 0, 0, 0);
             color: #ffffff;
             transition: transform 0.3s ease;
             position: absolute;
             width: 25px;
-            right: 20px;
+            right: 15px;
             bottom: 30px;
         
               }
