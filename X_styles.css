@@ -294,13 +294,18 @@ cursor: url("/CURSOR/cursor02.png"),auto ;
     opacity: 65%;
     text-decoration: none;
     color: #fffcfc63;
+
+}
+
+.Inicio {
     cursor: pointer;
 }
 
 .Inicio img {
-    width: 10px;
-    height: 10px;
+max-width: 100px;
+height: 100px;
 }
+
 
 
 
