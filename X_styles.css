@@ -306,7 +306,7 @@ cursor: url("/CURSOR/cursor02.png"),auto ;
             
   /* Efecto hover con animación */
  .S5:hover {
-                    width: 30px;
+                    width: 25px;
                     height: 25px;
                     transition: transform 0.3s ease, background-color 0.3s ease; /* Transición suave en transform y color de fondo */
                     align-items: center;
