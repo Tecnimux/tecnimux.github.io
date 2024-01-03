@@ -94,7 +94,7 @@ cursor: url("/CURSOR/cursor02.png"),auto ;
     font-size: 4rem;
     background-color: transparent;
     cursor: pointer;
-    }
+    
 }
 .Close {
     display: flex;
@@ -145,7 +145,7 @@ cursor: url("/CURSOR/cursor02.png"),auto ;
     flex-direction: column;
     align-items: end;
 }
-
+}
 
 
 .Logo_Tx {
@@ -388,7 +388,7 @@ p3 {
     /*Video de fondo*/
 #BK {
     min-height: 10vh;
-    position: absolute;
+    position: relative;
 }
 video {
     position: absolute;
@@ -396,7 +396,7 @@ video {
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit:cover;
+    object-fit: cover;
 }
 
 .Capa {
@@ -428,7 +428,7 @@ video {
 
 .colombia01 {
     position: relative;
-    bottom: 10px;
+    bottom: 15px;
 }
 .colombia02 {
     position: relative;
