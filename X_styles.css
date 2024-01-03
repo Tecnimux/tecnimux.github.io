@@ -262,7 +262,7 @@ cursor: url("/CURSOR/cursor02.png"),auto ;
     position: absolute;
     width: 25px;
     right: 20px;
-    bottom: 30px;
+    bottom: 155px;
 
       }
     
@@ -274,6 +274,8 @@ cursor: url("/CURSOR/cursor02.png"),auto ;
             align-items: center;
           }
       
+
+          
           /* Efecto hover agresivo */
           .S4:hover {
             transform: scale(1) rotate(360deg);
@@ -281,6 +283,41 @@ cursor: url("/CURSOR/cursor02.png"),auto ;
           }
   
 
+
+
+
+
+          
+.S5 img {
+            max-width: 1.2rem;
+            height: auto;
+        }
+        
+.S5 {
+            background-color: #6034db;
+            color: #ffffff;
+            transition: transform 0.3s ease;
+            position: absolute;
+            width: 25px;
+            right: 20px;
+            bottom: 30px;
+        
+              }
+            
+  /* Efecto hover con animación */
+ .S5:hover {
+                    width: 30px;
+                    height: 25px;
+                    transition: transform 0.3s ease, background-color 0.3s ease; /* Transición suave en transform y color de fondo */
+                    align-items: center;
+                  }
+              
+/* Efecto hover agresivo */
+.S5:hover {
+                    transform: scale(1) rotate(360deg);
+                    background-color:   #e74c3c;  /* Cambia el color de fondo al pasar el cursor */
+                  }
+          
 
 .Inicio a {
     top:30px;
