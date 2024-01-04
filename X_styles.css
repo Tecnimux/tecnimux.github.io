@@ -34,7 +34,10 @@ header {
     font-size: 1rem;
     letter-spacing: 0.2rem;
 }
-
+ footer {
+    position: relative;
+    bottom: 0;
+ }
 
 /*EFECTO-HOVER-LIST*/
 .Nav_List :hover {
@@ -151,10 +154,10 @@ cursor: url("/CURSOR/cursor02.png"),auto ;
 .Logo_Tx {
     cursor: url("/CURSOR/cursor02.png"),auto ;
     }
-
+/* Form */
     .iniciar_s {
-        position: relative;
-        padding-top: 80px;
+        position: absolute;
+        top: 150px;
         }
 
 /*REDES SOCIALES*/
@@ -321,7 +324,7 @@ cursor: url("/CURSOR/cursor02.png"),auto ;
 
 .Inicio a {
     top:30px;
-    position: relative;
+    position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -379,9 +382,8 @@ p3 {
 
 
 .welcome{
-    position:relative;
-    margin-top: 1rem;
-    margin-left: 1rem;
+    position: absolute;
+    top: 50px;
 }
 
    
@@ -391,7 +393,7 @@ p3 {
     .colombia01 img {
         width: 30px;
         height:auto;
-    position: relative;
+    position: absolute;
     top: 468px;
     left: 16px;
 
@@ -400,7 +402,7 @@ p3 {
     .colombia02 img {
         width: 30px;
         height:auto;
-        position:relative;
+        position:absolute;
         top: 460px;
         left: 15px;
     }
@@ -408,7 +410,7 @@ p3 {
     
 /* Desarrollador */
     .T4 {
-        position:relative;
+        position:absolute;
         padding: 8px;
         letter-spacing:2px;
         margin: 0;
@@ -417,7 +419,7 @@ p3 {
 /* Creditos MADE IN */
     .Creditos {
    
-        position:relative;
+        position:absolute;
         margin-left: 3.5rem;
         margin-top: 28rem;
         letter-spacing: 4px;
@@ -433,7 +435,7 @@ p3 {
     position: relative;
 }
 video {
-    position: absolute;
+    position: relative;
     top:0;
     left: 0;
     width: 100%;
@@ -442,7 +444,7 @@ video {
 }
 
 .Capa {
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     width:100%;
@@ -452,9 +454,34 @@ video {
     mix-blend-mode: overlay;
 }
 
-
-.iniciar_s  {
+#sec0 {
+position: relative;
+}
+#sec0 a {
+    text-decoration: none;
+}
+#sec01 {
     position: relative;
+    
+    }
+ #sec02 {
+    position: relative;
+    
+    }
+    #sec03 {
+        position: relative;
+        
+        }
+        #sec04 {
+            position: relative;
+            }
+
+            nav a {
+                text-decoration: none;
+                
+            }
+.iniciar_s  {
+    position: absolute;
 }
 
 .iniciar_s h2 {
@@ -469,11 +496,11 @@ video {
 }
 
 .colombia01 {
-    position: relative;
+    position:absolute;
     bottom: 15px;
 }
 .colombia02 {
-    position: relative;
+    position: absolute;
     bottom: 10px;
 }
     
