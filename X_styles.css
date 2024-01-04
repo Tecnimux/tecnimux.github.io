@@ -190,9 +190,6 @@ cursor: url("/CURSOR/cursor02.png"),auto ;
         transform: scale(1) rotate(180deg);
         background-color:   #e74c3c;  /* Cambia el color de fondo al pasar el cursor */
       }
-   /*NEGRO TRANSPARENTE
-      #00000000;
-*/
 
 .S2 img {
     max-width: 2.2rem;
@@ -439,7 +436,7 @@ video {
 }
 
 .Capa {
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
     width:100%;
@@ -453,16 +450,22 @@ video {
 position: relative;
 }
 #sec01 {
+    display: flex;
+    align-items:center;
     position: relative;
-    background-color: rgba(0, 0, 0, 0.226);
+    background-color: rgba(0, 0, 0, 0.89);
     color:red;
     }
     #sec01 img {
         max-width: 40%;
         height: auto;
+        margin-right: 20px;
     }
     #sec01 p {
-        color:rgba(65, 65, 65, 0.8);
+        color:rgba(255, 255, 255, 0.87);
+        flex: 1;
+        font-size: 14px;
+        
     }
  #sec02 {
     position: relative;
@@ -496,10 +499,30 @@ position: relative;
             #sec04 p {
                 color:rgba(65, 65, 65, 0.8);
             }
-            nav a {
-                text-decoration: none;
-                
-            }
+            
+               
+              
+            
+ul {
+    display: none;
+    list-style: none; /* Eliminar los puntos de la lista */
+    padding: 0;
+    margin: 0;
+}
+li {
+
+}
+a {
+    text-decoration: none; 
+    color: #ffee00de;
+    font-weight: bold; /* Peso de la fuente (negrita) */
+    font-size: 16px; /* Tamaño de la fuente */
+    transition: color 0.3s ease; /* Transición de color suave */
+}
+
+a:hover {
+    color: #634092; /* Cambiar el color al pasar el ratón sobre el enlace */
+}
 .iniciar_s  {
     position: absolute;
 }
