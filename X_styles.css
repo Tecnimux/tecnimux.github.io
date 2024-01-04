@@ -452,25 +452,50 @@ video {
 #sec0 {
 position: relative;
 }
-#sec0 a {
-    text-decoration: none;
-}
 #sec01 {
     position: relative;
-    
+    background-color: rgba(0, 0, 0, 0.226);
+    color:red;
+    }
+    #sec01 img {
+        max-width: 40%;
+        height: auto;
+    }
+    #sec01 p {
+        color:rgba(65, 65, 65, 0.8);
     }
  #sec02 {
     position: relative;
     
     }
+    #sec02 img {
+        max-width: 100%;
+        height: auto;
+    }
+    #sec02 p {
+        color:rgba(65, 65, 65, 0.8);
+    }
     #sec03 {
         position: relative;
         
         }
+        #sec03 img {
+            max-width: 100%;
+            height: auto;
+        }
+        #sec03 p {
+            color:rgba(65, 65, 65, 0.8);
+        }
         #sec04 {
             position: relative;
             }
-
+            #sec04 img {
+                max-width: 100%;
+                height: auto;
+            }
+            #sec04 p {
+                color:rgba(65, 65, 65, 0.8);
+            }
             nav a {
                 text-decoration: none;
                 
