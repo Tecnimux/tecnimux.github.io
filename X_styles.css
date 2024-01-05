@@ -421,14 +421,14 @@ p3 {
 
 
 
-    /*Video de fondo*/
+    /* Video de fondo */
 #BK {
     min-height: 10vh;
     position: relative;
 }
 video {
     position: relative;
-    top:0;
+    top:-500px;
     left: 0;
     width: 100%;
     height: 100%;
@@ -448,6 +448,9 @@ video {
 
 #sec0 {
 position: relative;
+width: 100%; /* Definir el ancho de la sección */
+     height: 800px;
+      background-color: lightgray; /* Agregar un color de fondo para visualización */
 }
 #sec01 {
     display: flex;
