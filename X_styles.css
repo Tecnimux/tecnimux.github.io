@@ -30,7 +30,8 @@ header {
     align-items:center;
     justify-content:space-between ;
     padding: 1rem;
-    background-color: rgba(44, 43, 44, 0.7);
+    background-color: rgba(44, 43, 44, 0.856);
+
     font-size: 1rem;
     letter-spacing: 0.2rem;
 }
@@ -40,12 +41,14 @@ header {
  }
 
 /*EFECTO-HOVER-LIST*/
-.Nav_List :hover {
+.Nav_List :hover  {
     color: #ffffff;
-    transition: background-color 5s ease, transform 5s ease, box-shadow 0.8s ease;
-}
+  }
 
 
+  .Nav_List :hover li  {
+    transform:scale(1.00000001);
+  }
 /*Logo tecnimux*/  
 .Logo_Tx {
     max-width:5rem;
@@ -55,17 +58,10 @@ cursor: url("/CURSOR/cursor02.png"),auto ;
 }
 
 .Logo_Tx:hover {
-    width: 100px;
-    height: 81px;
-    display: flex;
-    border-radius: 2%; 
-    transition: background-color 0.1s ease, opacity 0.4s ease; /* Aplica transiciones suaves */
+filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.1));
 }
 
-.Logo_Tx:hover {
-    background-color: #51317ac9; 
-    opacity: 0.1; 
-}
+
 
 
 
@@ -118,6 +114,14 @@ cursor: url("/CURSOR/cursor02.png"),auto ;
     .Close {
         color: #ffffff;
     }
+    .Open :hover {
+        filter:blur(1.3px);
+    }
+    .Close :hover {
+        
+     filter:blur(1.3px);
+    }
+    
 
 
 .Nav_List {
@@ -155,12 +159,15 @@ cursor: url("/CURSOR/cursor02.png"),auto ;
     cursor: url("/CURSOR/cursor02.png"),auto ;
     }
 /* Form */
-    .iniciar_s {
+    .Form{
         position: absolute;
-        top: 150px;
+        top: 50%;
+        bottom: 50%;
+        right: 50%;
+        left: 50%;
         }
 
-/*REDES SOCIALES*/
+/* REDES SOCIALES */
 .S1 img {
     max-width: 2.2rem;
     height: auto;
@@ -192,7 +199,7 @@ cursor: url("/CURSOR/cursor02.png"),auto ;
       }
 
 .S2 img {
-    max-width: 2.2rem;
+    max-width: 1.8rem;
     height: auto;
 }
  
@@ -202,8 +209,8 @@ cursor: url("/CURSOR/cursor02.png"),auto ;
     transition: transform 0.3s ease;
     position: absolute;
     width: 25px;
-    right: 20px;
-    bottom: 95px;
+    right: 22px;
+    bottom: 90px;
   }
 
     
@@ -251,7 +258,7 @@ cursor: url("/CURSOR/cursor02.png"),auto ;
       } 
 
 .S4 img {
-    max-width: 1.2rem;
+    max-width: 2.2rem;
     height: auto;
 }
 
@@ -261,7 +268,7 @@ cursor: url("/CURSOR/cursor02.png"),auto ;
     transition: transform 0.3s ease;
     position: absolute;
     width: 25px;
-    right: 15px;
+    right: 20px;
     bottom: 155px;
 
       }
@@ -299,7 +306,7 @@ cursor: url("/CURSOR/cursor02.png"),auto ;
             transition: transform 0.3s ease;
             position: absolute;
             width: 25px;
-            right: 15px;
+            right: 17px;
             bottom: 30px;
         
               }
@@ -431,18 +438,19 @@ video {
     top:0px;
     left: 0;
     width: 100%;
-    height: 800px;
+    height: 850px;
     object-fit: cover;
 }
 
 .Capa {
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
     width:100%;
     height:100%;
     background-color: #3b3b3b;
-    opacity:0,5;
+    opacity: 0.7;
+    filter: blur(1px);
     mix-blend-mode: overlay;
 }
 
@@ -525,21 +533,21 @@ a {
 a:hover {
     color: #634092; /* Cambiar el color al pasar el ratón sobre el enlace */
 }
-.iniciar_s  {
+.Form {
     position: absolute;
 }
-
-.iniciar_s h2 {
+/*
+.Form h2 {
    
     color: #d0ff00;
-    padding:1rem ;
 }
 
-.iniciar_s a {
-    text-decoration: underline;
+.Form a {
+    text-decoration:none;
     color: #688b07;   
+    cursor: pointer;
 }
-
+*/
 .colombia01 {
     position:absolute;
     bottom: 15px;
