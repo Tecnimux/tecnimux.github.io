@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Space+Grotesk';
+}
+
+
+.texto {
+    margin: 30px auto;
+    width: 80%;
+}
+.texto p,h1 {
+    margin-bottom: 30px;
+}
+.texto p {
+    font-size:20px;
+}
+
+.btn-abrir {
+    background:rgba(129, 201, 21, 0.856) ;
+    color: #ffff;
+    padding: 10px;
+    display: inline-block;
+    border: none;
+}
