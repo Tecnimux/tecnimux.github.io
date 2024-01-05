@@ -428,15 +428,15 @@ p3 {
 }
 video {
     position: relative;
-    top:-500px;
+    top:0px;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 800px;
     object-fit: cover;
 }
 
 .Capa {
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     width:100%;
@@ -448,8 +448,7 @@ video {
 
 #sec0 {
 position: relative;
-width: 100%; /* Definir el ancho de la sección */
-     height: 800px;
+
       background-color: lightgray; /* Agregar un color de fondo para visualización */
 }
 #sec01 {
