@@ -23,4 +23,16 @@
     padding: 10px;
     display: inline-block;
     border: none;
+    cursor: pointer;
+}
+
+/* Ventana Modal*/
+.pop-up{
+  background: rgba(48,48,48, 0.5);  
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+
 }
