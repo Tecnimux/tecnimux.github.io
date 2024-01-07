@@ -39,7 +39,7 @@ header {
     bottom: 0;
  }
 
-/*EFECTO-HOVER-LIST*/
+/* Efecto hover List */
 .Nav_List :hover  {
     color: #ffffff;
   }
@@ -48,7 +48,7 @@ header {
   .Nav_List :hover li  {
     transform:scale(1.00000001);
   }
-/*Logo tecnimux*/  
+/* Logo Tecnimux */  
 .Logo_Tx {
     max-width:5rem;
     cursor: pointer;
@@ -158,13 +158,20 @@ filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.1));
     cursor: url("/CURSOR/cursor02.png"),auto ;
     }
 /* Form */
-    .Form{
-        position: absolute;
-        top: 50%;
-        bottom: 50%;
-        right: 50%;
-        left: 50%;
-        }
+.Form {
+    position: absolute;
+    display: flex;
+    background-color: transparent;
+    margin: 0;
+    border: 0;
+    top:0;
+    left:  40px;
+    font-size: 4rem ;
+    transition: color 0.3s ease; 
+}
+.Form:hover {
+color: #634092;  
+} 
 
 /* REDES SOCIALES */
 .S1 img {
@@ -452,6 +459,7 @@ video {
     mix-blend-mode: overlay;
 }
 
+/* Sections */  
 #sec0 {
 position: relative;
 
@@ -510,7 +518,7 @@ position: relative;
             
                
               
-        /* Sections */  
+        
 ul {
     display: none;
     list-style: none; /* Eliminar los puntos de la lista */
@@ -528,16 +536,11 @@ a {
 a:hover {
     color: #634092; /* Cambiar el color al pasar el ratón sobre el enlace */
 }
-.Form a{
-    text-decoration: none; 
-    color: #ffee00de;
-    font-weight: bold; /* Peso de la fuente (negrita) */
-    font-size: 16px; /* Tamaño de la fuente */
-    transition: color 0.3s ease; /* Transición de color suave */
-}
-.Form:hover a{
-    color: #634092; /* Cambiar el color al pasar el ratón sobre el enlace */
-}
+
+
+
+
+
 
 .colombia01 {
     position:absolute;
