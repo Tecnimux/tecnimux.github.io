@@ -326,6 +326,8 @@ filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.1));
           
 
 .Inicio a {
+    align-items: center;
+    text-align: center;
     position: absolute;
     top:30px;
     left: 35%;
@@ -508,7 +510,7 @@ position: relative;
             
                
               
-            
+        /* Sections */  
 ul {
     display: none;
     list-style: none; /* Eliminar los puntos de la lista */
@@ -526,21 +528,17 @@ a {
 a:hover {
     color: #634092; /* Cambiar el color al pasar el ratón sobre el enlace */
 }
-.Form {
-    position: absolute;
+.Form a{
+    text-decoration: none; 
+    color: #ffee00de;
+    font-weight: bold; /* Peso de la fuente (negrita) */
+    font-size: 16px; /* Tamaño de la fuente */
+    transition: color 0.3s ease; /* Transición de color suave */
 }
-/*
-.Form h2 {
-   
-    color: #d0ff00;
+.Form:hover a{
+    color: #634092; /* Cambiar el color al pasar el ratón sobre el enlace */
 }
 
-.Form a {
-    text-decoration:none;
-    color: #688b07;   
-    cursor: pointer;
-}
-*/
 .colombia01 {
     position:absolute;
     bottom: 15px;
