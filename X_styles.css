@@ -37,6 +37,27 @@ header {
  footer {
     position: relative;
     bottom: 0;
+    background-color: rgb(44, 44, 44); /* Agregar un color de fondo para visualización */
+    
+.colombia01{
+    position:absolute;
+    bottom: 15px;
+}
+.colombia02 {
+    position: absolute;
+    bottom: 10px;
+}  
+.T4 {
+    position: absolute;
+    bottom: 50px;
+}
+.Creditos {
+    position: absolute;
+    bottom: 50px;
+}
+.Send-Email a{
+    color: #ff0000;
+}
  }
 
 /* Efecto hover List */
@@ -353,6 +374,7 @@ color: #634092;
 
 }
 
+
 .Inicio {
     cursor: pointer;
 }
@@ -382,14 +404,6 @@ h4 {
 }
 
 
-.welcome{
-    position: absolute;
-    top: 50%;
-}
-.welcome h2,p {
-    color: #ff0000;
-}
-
    
 /* Bandera y Sombrero */
 
@@ -410,18 +424,10 @@ h4 {
         top: 460px;
         left: 15px;
     }
-    
-    
-/* Desarrollador */
-    .T4 {
-        position:absolute;
-        padding: 8px;
-        letter-spacing:2px;
-        margin: 0;
-    }
+
     
 /* Creditos MADE IN */
-    .Creditos {
+    .Made {
    
         position:absolute;
         margin-left: 3.5rem;
@@ -461,9 +467,10 @@ video {
 
 /* Sections */  
 #sec0 {
+    display: flex;
 position: relative;
-
-      background-color: lightgray; /* Agregar un color de fondo para visualización */
+align-items: center;
+background-color: lightgray; /* Agregar un color de fondo para visualización */
 }
 #sec01 {
     display: flex;
@@ -485,7 +492,7 @@ position: relative;
     }
  #sec02 {
     position: relative;
-    
+    background-color: lightgray; /* Agregar un color de fondo para visualización */
     }
     #sec02 img {
         max-width: 100%;
@@ -496,7 +503,7 @@ position: relative;
     }
     #sec03 {
         position: relative;
-        
+        background-color: rgb(44, 44, 44); /* Agregar un color de fondo para visualización */
         }
         #sec03 img {
             max-width: 100%;
@@ -507,6 +514,7 @@ position: relative;
         }
         #sec04 {
             position: relative;
+            background-color: rgb(44, 44, 44); /* Agregar un color de fondo para visualización */
             }
             #sec04 img {
                 max-width: 100%;
@@ -518,7 +526,7 @@ position: relative;
             
                
               
-        
+        /* Sections */
 ul {
     display: none;
     list-style: none; /* Eliminar los puntos de la lista */
@@ -541,21 +549,3 @@ a:hover {
 
 
 
-
-.colombia01 {
-    position:absolute;
-    bottom: 15px;
-}
-.colombia02 {
-    position: absolute;
-    bottom: 10px;
-}
-    
-.T4 {
-    position: absolute;
-    bottom: 50px;
-}
-.Creditos {
-    position: absolute;
-    bottom: 50px;
-}
