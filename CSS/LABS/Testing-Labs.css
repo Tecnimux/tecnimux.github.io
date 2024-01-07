@@ -4,6 +4,17 @@
     box-sizing: border-box;
     font-family:'Space+Grotesk';
 }
+
+.Now {
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    color: #56f756;
+}
+
+.Now:hover {
+    background-color: #45ec4550;
+}
 .texto {
     margin: 30px auto;
     width: 80%;
@@ -127,13 +138,13 @@ color:#ffff;
 .sub-content  h2{
     font-weight:500;
     font-size:40px;
-    color: rgb(255, 0, 0);
+    color: rgb(0, 255, 136);
     margin-bottom: 15px;
 
 }
 .sub-content p{
     font-weight:500;
-    color: rgb(223, 7, 25);
+    color: rgb(51, 51, 51);
     margin-bottom:30px;
 }
 
@@ -164,7 +175,7 @@ background: gray;
 .line{
     width: 100%;
     height: 20px;
-    background: orange;
+    background: rgba(91, 23, 155, 0.726);
 }
 
 
@@ -173,7 +184,7 @@ background: gray;
     top:40px;
     right:25px;
     font-size: 25px;
-    color: rgb(223, 7, 25);
+    color: rgba(0, 0, 0, 0.918);
     cursor: pointer;
 }
 
