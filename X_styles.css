@@ -399,7 +399,7 @@ background-color: lightgray; /* Agregar un color de fondo para visualización */
         display: flex;
         align-items:center;
         position: relative;
-        background-color: rgba(0, 0, 0, 0.89);
+        background-color: rgba(0, 0, 0, 0.973);
         color:red;
         width: 100%;
         height: 100%;
@@ -421,7 +421,7 @@ background-color: lightgray; /* Agregar un color de fondo para visualización */
             right: 2px;
         }
         .Title-HStore{
-            position: relative;
+            position: absolute;
             top: 50%;
             left: 2rem;
             font-size: 1.5rem;
