@@ -200,7 +200,6 @@ color: #634092;
 .S1 img {
     max-width: 2.2rem;
     height: auto;
-
 }
     /* Estilo inicial del elemento */
 .S1 {
@@ -212,48 +211,30 @@ color: #634092;
     bottom: 125px;
     transition: transform 0.3s ease;
   }
-
-    /* Efecto hover con animación */
+    /* Efecto hover */
     .S1:hover {
         width: 25px;
         height: 21px;
-        transition: transform 0.3s ease, background-color 0.3s ease; /* Transición suave en transform y color de fondo */
-        align-items: center;
-      }
-  
-      /* Efecto hover agresivo */
-      .S1:hover {
         transform: scale(1) rotate(180deg);
-        background-color:   #e74c3c;  /* Cambia el color de fondo al pasar el cursor */
+        background-color: #0000000;/* background-color:   #e74c3c; */
       }
 
 .S2 img {
     max-width: 1.8rem;
     height: auto;
 }
- 
 .S2 {
     background-color:rgba(0, 0, 0, 0);
     color: #ffffff;
-    transition: transform 0.3s ease;
     position: absolute;
     width: 25px;
     right: 22px;
     bottom: 90px;
+    transition: transform 0.5s ease;
   }
-
-    
+    /* Efecto hover */
     .S2:hover {
-        width: 30px;
-        height: 21px;
-        transition: transform 0.3s ease, background-color 0.3s ease; /* Transición suave en transform y color de fondo */
-        align-items: center;
-      }
-  
-    
-      .S2:hover {
         transform: scale(1) rotate(360deg);
-        background-color:   #e74c3c;  /* Cambia el color de fondo al pasar el cursor */
       }
 
 .S3 img {
@@ -263,64 +244,39 @@ color: #634092;
 .S3 {
     background-color:rgba(0, 0, 0, 0);
     color: #ffffff;
-    transition: transform 0.3s ease;
     position: absolute;
     width: 25px;
     right: 20px;
     bottom: 60px;
+    transition: transform 0.5s ease;
   }
-
-    /* Efecto hover con animación */
+    /* Efecto hover */
     .S3:hover {
-        width: 30px;
-        height: 25px;
-        transition: transform 0.3s ease, background-color 0.3s ease; /* Transición suave en transform y color de fondo */
-        align-items: center;
-      }
-  
-      /* Efecto hover agresivo */
-      .S3:hover {
         transform: scale(1) rotate(360deg);
-        background-color:   #e74c3c;  /* Cambia el color de fondo al pasar el cursor */
       } 
 
 .S4 img {
     max-width: 2.2rem;
     height: auto;
 }
-
 .S4 {
     background-color:rgba(0, 0, 0, 0);
     color: #ffffff;
-    transition: transform 0.3s ease;
     position: absolute;
     width: 25px;
     right: 20px;
     bottom: 155px;
-
-      }
-    
-        /* Efecto hover con animación */
-        .S4:hover {
-            width: 26px;
-            height: 25px;
-            transition: transform 0.3s ease, background-color 0.3s ease; /* Transición suave en transform y color de fondo */
-            align-items: center;
-          }
-      
-
-          
-          /* Efecto hover agresivo */
-          .S4:hover {
-            transform: scale(1) rotate(360deg);
-            background-color:   #e74c3c;  /* Cambia el color de fondo al pasar el cursor */
-          }
+    transition: transform 0.5s ease;
+    }
+    /* Efecto hover */
+    .S4:hover {
+        transform: scale(1) rotate(360deg);
+    }
            
 .S5 img {
             max-width: 1.2rem;
             height: auto;
-        }
-        
+        }  
 .S5 {
     background-color:rgba(0, 0, 0, 0);
             color: #ffffff;
@@ -328,22 +284,12 @@ color: #634092;
             width: 25px;
             right: 17px;
             bottom: 30px;
-            transition: transform 0.3s ease;
-              }
-            
-  /* Efecto hover con animación */
+            transition: transform 0.5s ease;
+    }
+  /* Efecto hover */
  .S5:hover {
-                    width: 20px;
-                    height: 20px;
-                    transition: transform 0.3s ease, background-color 0.3s ease; /* Transición suave en transform y color de fondo */
-                    align-items: center;
-                  }
-              
-/* Efecto hover agresivo */
-.S5:hover {
-                    transform: scale(1) rotate(360deg);
-                    background-color:   #e74c3c;  /* Cambia el color de fondo al pasar el cursor */
-                  }
+        transform: scale(1) rotate(360deg);
+    }
           
 
 .Inicio a {
@@ -362,7 +308,6 @@ color: #634092;
     color: #fffcfc63;
 }
 
-
 .Inicio {
     cursor: pointer;
 }
@@ -372,27 +317,6 @@ max-width: 100px;
 height: 100px;
 }
 
-
-
-
-
-h1 {
-    color: white;
-    letter-spacing: 4px;
-}
-h3 {
-    color: white;
-}
-h4 {
-
-    color: white;
-}
-.T3 {
-    color: white;
-}
-
-
-   
 /* Bandera y Sombrero */
 
 /*SOMBRERO*/
