@@ -54,10 +54,6 @@ header {
     position: relative;
     bottom: 10px;
 }  
-.T4 {
-    position: relative;
-    bottom: 50px;
-}
 
 .Send-Email a{
     color: #ff0000;
@@ -74,14 +70,14 @@ header {
     transform:scale(1.00000001);
   }
 /* Logo Tecnimux */  
-.Logo_Tx {
+.Logo-Tx {
     max-width:5rem;
-    cursor: pointer;
     background-color:transparent;
-cursor: url("/CURSOR/cursor02.png"),auto ;
+    cursor: pointer;
+    cursor: url("/CURSOR/cursor02.png"),auto;
 }
 
-.Logo_Tx:hover {
+.Logo-Tx:hover {
 filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.1));
 }
 
@@ -213,10 +209,7 @@ color: #634092;
   }
     /* Efecto hover */
     .S1:hover {
-        width: 25px;
-        height: 21px;
         transform: scale(1) rotate(180deg);
-        background-color: #0000000;/* background-color:   #e74c3c; */
       }
 
 .S2 img {
@@ -437,7 +430,7 @@ background-color: lightgray; /* Agregar un color de fondo para visualización */
             
                
               
-        /* Sections */
+/* Links-Sections */
 ul {
     display: none;
     list-style: none; /* Eliminar los puntos de la lista */
@@ -456,62 +449,7 @@ a:hover {
     color: #634092; /* Cambiar el color al pasar el ratón sobre el enlace */
 }
 
-/* ToolTip Bloated */
-.tooltipbloated {
-	display: inline;
-	position: relative;
-	z-index: 999;
-}
-
-.tooltipbloated-content {
-	position: absolute;
-	background: url('https://iborra.es/web/wp-content/themes/dfd-ronneby_child/img/tooltipbloated.png') no-repeat center bottom;
-	background-size: 100% 100%;
-	z-index: 9999;
-	width: 140px;
-	bottom: 100%;
-	left: 50%;
-	margin-left: -100px;
-	padding: 50px 30px;
-	text-align: center;
-	color: #fff;
-	opacity: 0;
-	cursor: default;
-	font-size: 0.75em;
-	line-height: 1.4;
-	pointer-events: none;
-	font-family: 'Kalam', cursive;
-	-webkit-transform: scale3d(0.1,0.2,1);
-	transform: scale3d(0.1,0.2,1);
-	-webkit-transform-origin: 50% 120%;
-	transform-origin: 50% 120%;
-	-webkit-transition: opacity 0.4s, -webkit-transform 0.4s;
-	transition: opacity 0.4s, transform 0.4s;
-	-webkit-transition-timing-function: ease, cubic-bezier(0.6,0,0.4,1);
-	transition-timing-function: ease, cubic-bezier(0.6,0,0.4,1);
-}
-
-.tooltipbloated:hover .tooltipbloated-content {
-	opacity: 1;
-	pointer-events: auto;
-	-webkit-transform: scale3d(1,1,1);
-	transform: scale3d(1,1,1);
-}
-
-/* Arrow */
-
-.tooltipbloated-content::after {
-	content: '';
-	position: absolute;
-	width: 16px;
-	height: 16px;
-	left: 50%;
-	margin-left: -8px;
-	top: 99%;
-	background: #282828;
-	-webkit-transform: translate3d(0,-60%,0) rotate3d(0,0,1,45deg);
-	transform: translate3d(0,-60%,0) rotate3d(0,0,1,45deg);
-}
+/* ToolTip */
 
 
 

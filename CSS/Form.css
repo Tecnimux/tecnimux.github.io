@@ -5,36 +5,29 @@
     box-sizing:border-box;
 }
 
-/*Logo tecnimux*/  
-.Logo_Tx {
-    position: absolute;
-    right: 0;
-    top: 0;
-    max-width: 5rem;
-    cursor: pointer;
-    }
-    .Logo_Tx:hover {
-        width: 100px;
-        height: 81px;
-        display: flex;
-        border-radius: 2%; 
-        transition: background-color 0.1s ease, opacity 0.4s ease; /* Aplica transiciones suaves */
-    }
-    
-    .Logo_Tx:hover {
-        background-color: #51317ac9; 
-        opacity: 0.1; 
-    }
-
-
-    
 body {
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:'Arial Narrow Bold';
     background-image: url(/BgYT.jpg);
 }
+/* Logo Tecnimux */  
+.Logo-Tx {
+    max-width:5rem;
+    background-color:transparent;
+    cursor: pointer;
+    cursor: url("/CURSOR/cursor02.png"),auto;
+}
+
+    .Logo-Tx:hover {
+        filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.1));
+        }
+
+
+    
+
 
 
 .form-login {
+    letter-spacing: 2px;
     width: 400px;
     height: 340px;
     background :rgba(37, 32, 32, 0.89);
