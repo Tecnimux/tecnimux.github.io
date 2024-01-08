@@ -3,29 +3,19 @@
     padding:0 ;
     box-sizing: border-box;
     }
-    /*Logo tecnimux*/  
-    .Logo_Tx {
-        z-index:3 ;
-        position: fixed;
-        right: 20px;
-        top: 20px;
-        max-width: 5rem;
-        cursor: pointer;
-        }
+/* Logo Tecnimux */  
+.Logo-Tx {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    max-width:2rem;
+    background-color:transparent;
+    cursor: pointer;
+    cursor: url("/CURSOR/cursor02.png"),auto;
+}
 
-
-        
-        .Logo_Tx:hover {
-            width: 100px;
-            height: 81px;
-            display: flex;
-            border-radius: 2%; 
-            transition: background-color 0.1s ease, opacity 0.4s ease; /* Aplica transiciones suaves */
-        }
-        
-        .Logo_Tx:hover {
-            background-color: #51317ac9; 
-            opacity: 0.1; 
+    .Logo-Tx:hover {
+        filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.1));
         }
         
     body {

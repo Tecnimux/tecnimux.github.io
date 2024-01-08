@@ -15,27 +15,20 @@ body {
         font-family: batman;
         src: url(/FUENTES/batmfa_.ttf)
     }
-/*Logo tecnimux*/  
-.Logo_Tx {
-    z-index: 1;
+/* Logo Tecnimux */  
+.Logo-Tx {
     position: absolute;
-    right: 20px;
-    top: 20px;
-    max-width: 5rem;
+    top: 15px;
+    right: 15px;
+    max-width:2rem;
+    background-color:transparent;
     cursor: pointer;
-    }
-    .Logo_Tx:hover {
-        width: 100px;
-        height: 81px;
-        display: flex;
-        border-radius: 2%; 
-        transition: background-color 0.1s ease, opacity 0.4s ease; /* Aplica transiciones suaves */
-    }
-    
-    .Logo_Tx:hover {
-        background-color: #51317ac9; 
-        opacity: 0.1; 
-    }
+    cursor: url("/CURSOR/cursor02.png"),auto;
+}
+
+    .Logo-Tx:hover {
+        filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.1));
+        }
 
 img {
         width: 100%;

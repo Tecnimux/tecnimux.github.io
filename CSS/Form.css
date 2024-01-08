@@ -11,7 +11,10 @@ body {
 }
 /* Logo Tecnimux */  
 .Logo-Tx {
-    max-width:5rem;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    max-width:2rem;
     background-color:transparent;
     cursor: pointer;
     cursor: url("/CURSOR/cursor02.png"),auto;
