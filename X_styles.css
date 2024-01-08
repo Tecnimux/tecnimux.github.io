@@ -38,23 +38,27 @@ header {
     position: relative;
     bottom: 0;
     background-color: rgb(44, 44, 44); /* Agregar un color de fondo para visualización */
-    
+
+
+ .Creditos {
+     position: relative;
+     margin:0;
+}
+
+
 .colombia01{
-    position:absolute;
+    position:relative;
     bottom: 15px;
 }
 .colombia02{
-    position: absolute;
+    position: relative;
     bottom: 10px;
 }  
 .T4 {
-    position: absolute;
+    position: relative;
     bottom: 50px;
 }
-.Creditos {
-    position: absolute;
-    bottom: 50px;
-}
+
 .Send-Email a{
     color: #ff0000;
 }
@@ -126,20 +130,18 @@ filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.1));
     font-size:40px ;
 }
 
+/*filter:blur(1.3px);*/
 
-
-    .Open {
+    .Open,.Close {
         color: #ffffff;
+        transition: color 0.3s ease;
     }
-    .Close {
-        color: #ffffff;
+   
+    .Open:hover {
+        color: #634092;  
     }
-    .Open :hover {
-        filter:blur(1.3px);
-    }
-    .Close :hover {
-        
-     filter:blur(1.3px);
+    .Close:hover {
+        color: #634092;  
     }
     
 
@@ -179,18 +181,18 @@ filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.1));
     cursor: url("/CURSOR/cursor02.png"),auto ;
     }
 /* Form */
-.Form {
+.Open-Sn{
+    color: #ffffff;
     position: absolute;
-    display: flex;
     background-color: transparent;
     margin: 0;
     border: 0;
-    top:0;
-    left:  40px;
-    font-size: 4rem ;
+    top:100px;
+    right:25px;
+    font-size: 3rem;
     transition: color 0.3s ease; 
 }
-.Form:hover {
+.Open-Sn:hover {
 color: #634092;  
 } 
 
@@ -530,7 +532,62 @@ a:hover {
     color: #634092; /* Cambiar el color al pasar el ratón sobre el enlace */
 }
 
+/* ToolTip Bloated */
+.tooltipbloated {
+	display: inline;
+	position: relative;
+	z-index: 999;
+}
 
+.tooltipbloated-content {
+	position: absolute;
+	background: url('https://iborra.es/web/wp-content/themes/dfd-ronneby_child/img/tooltipbloated.png') no-repeat center bottom;
+	background-size: 100% 100%;
+	z-index: 9999;
+	width: 140px;
+	bottom: 100%;
+	left: 50%;
+	margin-left: -100px;
+	padding: 50px 30px;
+	text-align: center;
+	color: #fff;
+	opacity: 0;
+	cursor: default;
+	font-size: 0.75em;
+	line-height: 1.4;
+	pointer-events: none;
+	font-family: 'Kalam', cursive;
+	-webkit-transform: scale3d(0.1,0.2,1);
+	transform: scale3d(0.1,0.2,1);
+	-webkit-transform-origin: 50% 120%;
+	transform-origin: 50% 120%;
+	-webkit-transition: opacity 0.4s, -webkit-transform 0.4s;
+	transition: opacity 0.4s, transform 0.4s;
+	-webkit-transition-timing-function: ease, cubic-bezier(0.6,0,0.4,1);
+	transition-timing-function: ease, cubic-bezier(0.6,0,0.4,1);
+}
+
+.tooltipbloated:hover .tooltipbloated-content {
+	opacity: 1;
+	pointer-events: auto;
+	-webkit-transform: scale3d(1,1,1);
+	transform: scale3d(1,1,1);
+}
+
+/* Arrow */
+
+.tooltipbloated-content::after {
+	content: '';
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	left: 50%;
+	margin-left: -8px;
+	top: 99%;
+	background: #282828;
+	-webkit-transform: translate3d(0,-60%,0) rotate3d(0,0,1,45deg);
+	transform: translate3d(0,-60%,0) rotate3d(0,0,1,45deg);
+}
 
 
 
