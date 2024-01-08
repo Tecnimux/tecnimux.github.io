@@ -17,6 +17,7 @@ body {
     }
 /* Logo Tecnimux */  
 .Logo-Tx {
+    z-index:2;
     position: absolute;
     top: 15px;
     right: 15px;
